@@ -2,19 +2,19 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: 'Space Grotesk', -apple-system, sans-serif;
-  --font-sans: 'DM Sans', -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
-  --color-surface-bg: #121214;
-  --color-surface-card: #18181B;
-  --color-surface-subtle: #202024;
-  --color-ink-primary: #F5F5F4;
-  --color-ink-muted: #A1A1AA;
-  --color-accent-brand: #F59E0B;
+  --color-surface-bg: #F9F9FB;
+  --color-surface-card: #FFFFFF;
+  --color-surface-subtle: #F0EFEA;
+  --color-ink-primary: #141413;
+  --color-ink-muted: #57534E;
+  --color-accent-brand: #EA580C;
 }
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 html {
@@ -24,8 +24,8 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background-color: #121214;
-  color: #F5F5F4;
+  background-color: #F9F9FB;
+  color: #141413;
   overflow-x: hidden;
   line-height: 1.65;
 }
@@ -45,12 +45,12 @@ h1, h2, h3, h4, .font-display {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #121214;
+  background: #F9F9FB;
 }
 ::-webkit-scrollbar-thumb {
-  background: #27272A;
+  background: #D6D3D1;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3F3F46;
+  background: #A8A29E;
 }
